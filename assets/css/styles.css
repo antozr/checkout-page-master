@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.head{
+    width: 50vw;
+    height: 29px;
+    margin: 32px 0 0 0 ;
+}
+.head__txt{
+    font-family: 'Montserrat', sans-serif;
+    font-size:24px ;
+    font-weight: 600;
+    line-height: 1;
+    color: #4E5150;
+    margin: 0 0 0 18px;
+}
+
+
+.main{
+    width: calc(100vw - 24px);
+    padding: 0 12px;
+
+}
+.cont__txt{
+    font-family: Montserrat;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 120%;
+    color: #4E5150;
+}
+.cont__txt--jaune{
+    font-size: 14px;
+    color: #F2994A;
+}
+.cont__txt--price{
+    text-decoration: line-through;
+    color: #4E5150;
+    font-size: 10px;
+    margin: 2px 0 0 0;
+}
+.cont__txt--box{
+    text-align: center;
+    background-color: #E0E0E0;
+    border-radius: 4px;
+    color: #828282;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    font-size: 18px;
+
+}
+.cont__txt--sold{
+    font-size: 14px;
+    color: #333333;
+}
+.cont__head{
+    width: calc(100% - 52px);
+    height: 474px;
+    border-radius: 12px;
+    background-color:  #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 24px 16px  28px;
+    margin: 21px 0 0 0 ;
+}
+.cont__list{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0 0 0 ;
+    
+    height: 280px;
+    justify-content: space-between;
+}
+.cont__el{
+    height: 124px;
+    display: grid;
+    grid-template-columns: 33vw 150px;
+    column-gap: 10vw;
+    grid-template-rows: 21px 33px 60px;
+    row-gap: 5px ;
+    grid-template-areas:
+    "im t1"
+    "im t2"
+    "im b1" ;
+    
+}
+.cont__elImg{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    grid-area: im;
+}
+.cont__boxPrice{
+    grid-area: t2;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+}
+.cont__elBox{
+    width: 80%;
+    height: 50px;
+    border-radius: 12px;
+    border: 1px solid #828282;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 7px 0 0 0 ;
+}
+.t1{
+    grid-area: t1;
+    padding: 2px 0 0 0 ;
+}
+.cont__count{
+    width: 100%;
+    height: 80px;
+
+}
+.cont__infoTxt{
+    width: 100%;
+    height: 27px;
+    border-top: 1px solid #BDBDBD;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:10px 0 0 0 ;
+}
+.cont__infoTxt:nth-child(2){
+    margin: 5px 0 0 0;
+}
