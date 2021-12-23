@@ -100,6 +100,109 @@
         </div>
       </div>
     </container>
+    <container class="cont__main">
+      <form action="/" class="cont__form">
+        <fieldset class="form__field">
+          <legend class="form__leg cont__txt cont__txt--sold">
+            Contact infomation
+          </legend>
+          <label for="email" class="form__label">
+            E-mail
+          </label>
+          <div class="form__boxInput">
+            <img src="/assets/img/mail_black_24dp.svg" alt="email icon" class="form__iconInput">
+          <input type="email" name="email" id="email"  placeholder="Enter your email..." class="form__input">
+          </div>
+          <label for="gsmLife" class="form__label">
+            Phone
+          </label>
+          <div class="form__boxInput">
+            <img src="/assets/img/phone_black_24dp.svg" alt="gsm icon" class="form__iconInput">
+            <input type="tel" name="gsmLife" id="gsmLife" placeholder="Enter your phone..." class="form__input">
+          </div>
+        </fieldset>
+
+
+        <fieldset class="form__field form__field--second">
+          <legend class="form__leg cont__txt cont__txt--sold">
+            Shipping address
+          </legend>
+          <label for="account" class="form__label">
+            Full name
+          </label>
+          <div class="form__boxInput">
+            <img src="/assets/img/account_circle_black_24dp.svg" alt="account icon" class="form__iconInput">
+          <input type="text" name="account" id="account"  placeholder="Rodney Cotton" class="form__input">
+          </div>
+
+          <label for="address" class="form__label">
+            Address
+          </label>
+          <div class="form__boxInput">
+            <img src="/assets/img/home_black_24dp.svg" alt="account icon" class="form__iconInput">
+          <input type="text" name="address" id="address"  placeholder="Your address.." class="form__input">
+          </div>
+
+          <label for="city" class="form__label">
+            City
+          </label>
+          <div class="form__boxInput">
+            <img src="/assets/img/location_city_black_24dp.svg" alt="account icon" class="form__iconInput">
+          <input type="text" name="city" id="city"  placeholder="Your city.." class="form__input">
+          </div>
+
+          <div class="form__boxInputRow">
+            <label for="payx" class="form__label l1">
+              Country
+            </label>
+            <div class="form__boxInput b1 ">
+              <img src="/assets/img/location_city_black_24dp.svg" alt="account icon" class="form__iconInput form__selectIcon">
+              
+                <select name="payx" id="payx"  placeholder="Your country.." class="form__input " >
+                  <option value="0" class="form__option">
+                    Your country..
+                  </option>
+                  <option value="Usa" class="form__option"> 
+                    &#127482;&#127480; Usa
+                  </option>
+                  <option  value="France" class="form__option">
+                    &#127467;&#127479; France
+                  </option>
+                  <option value="italia" class="form__option">
+                    &#127470;&#127481; Italia
+                  </option>
+                  <option  value="Uk" class="form__option">
+                    &#127468;&#127463; United Kingdom
+                  </option>
+                  <option value="japan" class="form__option">
+                    &#127470;&#127481; Japan
+                  </option>
+                  <option  value="russia" class="form__option">
+                    &#127468;&#127463; Russia
+                  </option>
+                </select>
+              
+            </div>
+
+            <label for="postal" class="form__label l2">
+              Postal code
+            </label>
+            <div class="form__boxInput b2">
+              <img src="/assets/img/markunread_mailbox_black_24dp.svg" alt="account icon" class="form__iconInput">
+            <input type="text" name="postal" id="postal"  placeholder="Your postal code.." class="form__input">
+            </div>
+          </div>
+        </fieldset>
+        <div class="form__boxCheck">
+          <input type="checkbox" name="valid" id="valid" class="from__check"> 
+          <label for="valid" class="form__label form__label--check">
+            Save this information for next time
+          </label>
+        </div>
+        
+        <input type="submit" value="Continue" class="form__btn">
+      </form>
+    </container>
   </main>
 </body>
 
