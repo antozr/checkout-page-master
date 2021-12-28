@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">{Checkout Page test 1}</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="http://www.checkdevchallenges.io.antoni-dumont.be/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/antozr/checkout-page-master">
       Solution
     </a>
     <span> | </span>
@@ -36,22 +36,29 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](http://www.checkdevchallenges.io.antoni-dumont.be/assets/img/Capture.PNG)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+## The structure 
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
+For create the structure , I have use the container tag in html, for structure in two blocks  one for the items / price component and the second for the form component. With the flex I modify the position in mobile or pc device. 
+
+## The form
+
+For this I have used the basic tag in html for create this and I used the required element in input tag for obliged user to write in input. 
+
+## The js 
+
+For the items/prices js, I am used the getElementById for shearch the buton + & - for incremant the numbers of this and the number is write with the innerHTML.  To final price for all items, I have used a basic math formul.
+
+For the form, I have used the localStorage for store deferently information of this and used a count for verrify the  content after send this at the server.
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- Js vanilla / localStorage
+- HTML 5
+- CSS 3 
 
 ## Features
 
@@ -85,6 +92,5 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [your-website.com](http://antoni-dumont.be/)
+- GitHub [@antozr](https://github.com/antozr/)
