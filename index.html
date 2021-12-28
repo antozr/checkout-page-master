@@ -94,14 +94,14 @@
           <p class="cont__txt cont__txt--sold">
             Total
           </p>
-          <p class="cont__txt cont__txt--sold">
+          <p class="cont__txt cont__txt--sold" id="soldAccount">
             $148.98
           </p>
         </div>
       </div>
     </container>
     <container class="cont__main">
-      <form action="/" class="cont__form">
+      <form action="https://www.wiflix.pw/63587-seal-team/4-season/14-episode.html" class="cont__form">
         <fieldset class="form__field">
           <legend class="form__leg cont__txt cont__txt--sold">
             Contact infomation
@@ -111,14 +111,14 @@
           </label>
           <div class="form__boxInput">
             <img src="/assets/img/mail_black_24dp.svg" alt="email icon" class="form__iconInput">
-          <input type="email" name="email" id="email"  placeholder="Enter your email..." class="form__input">
+          <input type="email" name="email" id="email"  placeholder="Enter your email..." class="form__input" required>
           </div>
           <label for="gsmLife" class="form__label">
             Phone
           </label>
           <div class="form__boxInput">
             <img src="/assets/img/phone_black_24dp.svg" alt="gsm icon" class="form__iconInput">
-            <input type="tel" name="gsmLife" id="gsmLife" placeholder="Enter your phone..." class="form__input">
+            <input type="tel" name="gsmLife" id="gsmLife" placeholder="Enter your phone..." class="form__input" required>
           </div>
         </fieldset>
 
@@ -132,7 +132,7 @@
           </label>
           <div class="form__boxInput">
             <img src="/assets/img/account_circle_black_24dp.svg" alt="account icon" class="form__iconInput">
-          <input type="text" name="account" id="account"  placeholder="Rodney Cotton" class="form__input">
+          <input type="text" name="account" id="account"  placeholder="Rodney Cotton" class="form__input" required>
           </div>
 
           <label for="address" class="form__label">
@@ -140,15 +140,15 @@
           </label>
           <div class="form__boxInput">
             <img src="/assets/img/home_black_24dp.svg" alt="account icon" class="form__iconInput">
-          <input type="text" name="address" id="address"  placeholder="Your address.." class="form__input">
+          <input type="text" name="address" id="address"  placeholder="Your address.." class="form__input" required>
           </div>
 
           <label for="city" class="form__label">
             City
           </label>
           <div class="form__boxInput">
-            <img src="/assets/img/location_city_black_24dp.svg" alt="account icon" class="form__iconInput">
-          <input type="text" name="city" id="city"  placeholder="Your city.." class="form__input">
+            <img src="/assets/img/location_city_black_24dp.svg" alt="account icon" class="form__iconInput" >
+          <input type="text" name="city" id="city"  placeholder="Your city.." class="form__input" required>
           </div>
 
           <div class="form__boxInputRow">
@@ -158,7 +158,7 @@
             <div class="form__boxInput b1 ">
               <img src="/assets/img/location_city_black_24dp.svg" alt="account icon" class="form__iconInput form__selectIcon">
               
-                <select name="payx" id="payx"  placeholder="Your country.." class="form__input " >
+                <select name="payx" id="payx"  placeholder="Your country.." class="form__input " required>
                   <option value="0" class="form__option">
                     Your country..
                   </option>
@@ -189,20 +189,25 @@
             </label>
             <div class="form__boxInput b2">
               <img src="/assets/img/markunread_mailbox_black_24dp.svg" alt="account icon" class="form__iconInput">
-            <input type="text" name="postal" id="postal"  placeholder="Your postal code.." class="form__input">
+            <input type="text" name="postal" id="postal"  placeholder="Your postal code.." class="form__input" required>
             </div>
           </div>
         </fieldset>
         <div class="form__boxCheck">
-          <input type="checkbox" name="valid" id="valid" class="from__check"> 
+          <input type="checkbox" name="valid" id="valid" class="from__check"  > 
           <label for="valid" class="form__label form__label--check">
             Save this information for next time
           </label>
         </div>
         
-        <input type="submit" value="Continue" class="form__btn">
+        <input type="submit" value="Continue" class="form__btn" id="btnSub">
       </form>
     </container>
+    <div class="check__box" id="checkInfo">
+      <p class="check__txt">
+        Tout est ok!
+      </p>
+    </div>
   </main>
 </body>
 
